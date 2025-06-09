@@ -67,7 +67,7 @@ resource "proxmox_vm_qemu" "test" {
   skip_ipv6  = true
 
   cpu {
-    cores = 2
+    cores = 4
   }
 
   network {
