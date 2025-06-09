@@ -20,7 +20,7 @@ variable "ci_user" { #cloud init username and password
 }
 
 variable "ci_password" {
-  type = string
+  type      = string
   sensitive = true
 }
 
