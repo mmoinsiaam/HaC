@@ -6,3 +6,18 @@ packer {
     }
   }
 }
+
+variable "api_url" {
+  type = string
+}
+
+variable "token_id" {
+  type = string
+  sensitive = true
+}
+
+variable "token_secret" {
+  type = string
+  sensitive = true
+}
+
