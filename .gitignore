@@ -1,4 +1,4 @@
 *
 !.gitignore
 !main.tf
-!main.pkr.hcl
+!ubuntu.pkr.hcl
