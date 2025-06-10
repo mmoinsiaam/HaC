@@ -1,4 +1,5 @@
-*
+terraform/*
+packer/*
 !.gitignore
 !main.tf
-!ubuntu.pkr.hcl
+!packer/ubuntu.pkr.hcl
