@@ -3,3 +3,5 @@ packer/*
 !.gitignore
 !main.tf
 !packer/ubuntu.pkr.hcl
+!files
+!http
