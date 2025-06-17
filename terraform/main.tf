@@ -63,7 +63,7 @@ resource "proxmox_vm_qemu" "test" {
   #cloud_init
   ciuser     = var.ci_user
   cipassword = var.ci_password
-  ipconfig0  = "ip=dhcp"
+  ipconfig0  = "ip=192.168.1.227/24"
   skip_ipv6  = true
 
   cpu {
